@@ -6,7 +6,7 @@ from django.template import loader
 import sqlite3
 from sqlite3 import Error
 
-DB_PATH_KOLIBRI = '/home/ubuntu/.kolibri/db.sqlite3'
+DB_PATH_KOLIBRI = '/home/franklin/.kolibri/db.sqlite3'
 
 def index(request):
     list_data = getData()
